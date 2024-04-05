@@ -7,14 +7,13 @@
 </head>
 <body>
     <script>
-       function checkStartString(longString, shortString) {
-    return longString.startsWith(shortString);
+        function checkEndString(longString, shortString) {
+    return longString.endsWith(shortString);
 }
 
 // Example usage:
-console.log(checkStartString("Hello, World!", "Hello")); // Output: true
-console.log(checkStartString("Hi there!", "there")); // Output: false
-
+console.log(checkEndString("Hello, World!", "Hello")); // Output: false
+console.log(checkEndString("Hi there!", "there!")); // Output: true
 
     </script>
 </body>
